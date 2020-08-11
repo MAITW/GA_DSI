@@ -503,79 +503,13 @@ Answers:
 
 ## Outside Research
 
-Based upon your observations, choose **three** states that demonstrate interesting trends in their SAT and/or ACT participation rates. Spend some time doing outside research on state policies that might influence these rates, and summarize your findings below. **Feel free to go back and create new plots that highlight these states of interest**. If you bring in any outside tables or charts, make sure you are explicit about having borrowed them. If you quote any text, make sure that it renders as being quoted. (Make sure that you cite your sources -- check with you local instructor for citation preferences).
-
-- [Ref1: SAT / ACT Prep Online Guides and Tips](https://blog.prepscholar.com/average-sat-scores-by-state-most-recent)
-- [Ref2: SAT reclaims title of most widely used college admission test](https://www.washingtonpost.com/education/2018/10/23/sat-reclaims-title-most-widely-used-college-admission-test/)
-- [Ref3: Correlation between higher SAT scores and lower average student debt](https://www.nitrocollege.com/research/student-debt-future-earnings)
-- [Ref4: Student Debt and future earning](https://www.nitrocollege.com/research/student-debt-future-earnings)
-
-<span style='color:green'> **Answer:** </span>
-<span style='color:green'> According to the web as shown in above the link, there are multiple research on providing different view on SAT and ACT. The data show a correlation between higher SAT scores and lower average student debt{Ref 4}. More time will be needed to perform data collection and cleaning in order to perform the necessary analysis. </span>
-
-
-```python
-ACT_SAT = final[['act_part_17','act_part_18', 'sat_part_17','sat_part_18',
-                 'act_composite_17','act_composite_18','sat_total_17','sat_total_18']
-               ].sort_values(by = ['act_part_17'], ascending=True)
-ACT_SAT.reset_index(inplace=True)
-ACT_SAT['act_part_delta'] = ACT_SAT['act_part_18'] - ACT_SAT['act_part_17']
-ACT_SAT['sat_part_delta'] = ACT_SAT['sat_part_18'] - ACT_SAT['sat_part_17']
-ACT_SAT['act_composite_17'] = round((ACT_SAT['act_composite_17']/32)*100,2)
-ACT_SAT['act_composite_18'] = round((ACT_SAT['act_composite_18']/32)*100,2)
-ACT_SAT['sat_total_17'] = round((ACT_SAT['sat_total_17']/1600)*100,2)
-ACT_SAT['sat_total_18'] = round((ACT_SAT['sat_total_18']/1600)*100,2)
-ACT_SAT['act_composite_delta'] = ACT_SAT['act_composite_18'] - ACT_SAT['act_composite_17']
-ACT_SAT['sat_total_delta'] = ACT_SAT['sat_total_18'] - ACT_SAT['sat_total_17']
-ACT_SAT[['act_part_delta','sat_part_delta','act_composite_delta','sat_total_delta']]
-
-plt.figure(figsize=(8,10))
-plt.style.use('seaborn-bright')
-
-y11 = ACT_SAT['state']
-x11 = ACT_SAT['act_part_delta']
-plt.plot(x11, y11, label = "ACT Participation differences between 2018/2017 ",linestyle='-', color='b',lw=1.5)
-y12 = ACT_SAT['state']
-x12 = ACT_SAT['act_composite_delta']
-plt.plot(x12, y12, label = "ACT Composite differences between 2018/2017 ", linestyle='--',color='b',lw=1)
-
-
-y21 = ACT_SAT['state']
-x21 = ACT_SAT['sat_part_delta']
-plt.plot(x21, y21, label = "SAT Participation differences between 2018/2017",linestyle='-',color='g',lw=1.5)
-y22 = ACT_SAT['state']
-x22 = ACT_SAT['sat_total_delta']
-plt.plot(x22, y22, label = "SAT Total differences between 2018/2017 ", linestyle='--',color='g',lw=1)
-
-plt.title('ACT vs SAT 2017/2018 Participation vs Composite/Total Score', fontsize=20)
-# plt.axvline(25, linestyle='--', lw = 1, color="r", label= "25%")
-# plt.axvline(75, linestyle='--', lw = 1, color="r", label= "75%")
-# plt.axvline(50, linestyle='-', lw = 1, color="r", label= "50%")
-plt.legend(loc='upper left',prop={'size': 7})
-plt.rc('xtick',labelsize=9)
-plt.rc('ytick',labelsize=9)
-plt.show()
-
-```
-
+> There are multiple research on providing different view on SAT and ACT. The data show a correlation between higher SAT scores and lower average student debt. 
 
 ![png](output_161_0.png)
 
 
 <span style='color:green'> **Answer:** </span>
 <span style='color:green'> From the above diagram, it seems like SAT is gaining more participation than ACT. Furthermore, the results and participation on both ACT and SAT is inversely related to each other. We could also observed few states with swing of participation corresponding with the relevant score swing as well (Illinois, Colorado...etc.)</span>
-
-
-![png](output_165_0.png)
-
-![png](output_166_0.png)
-
-
-![png](output_167_0.png)
-
-
-
-
 
 ## Conclusions and Recommendations
 
@@ -592,11 +526,20 @@ Based on your exploration of the data, what are you key takeaways and recommenda
 ><span style='color:green'>More data sets will need to be introduced in oder to have a more comprehensive and in depth conclusion on both SAT and ACT. Theses data sets should include (but not limited) race, gendar, school acceptance level (in quantity) on both ACT and SAT. </span>
 
 
+## Reference
+
+
+- [Ref1: SAT / ACT Prep Online Guides and Tips](https://blog.prepscholar.com/average-sat-scores-by-state-most-recent)
+- [Ref2: SAT reclaims title of most widely used college admission test](https://www.washingtonpost.com/education/2018/10/23/sat-reclaims-title-most-widely-used-college-admission-test/)
+- [Ref3: Correlation between higher SAT scores and lower average student debt](https://www.nitrocollege.com/research/student-debt-future-earnings)
+- [Ref4: Student Debt and future earning](https://www.nitrocollege.com/research/student-debt-future-earnings)
+
+
 ## Other Plots
 
 ![png](output_118_0.png) ![png](output_133_1.png)
 ![png](output_134_0.png)
-
-
-
+![png](output_165_0.png)
+![png](output_166_0.png)
+![png](output_167_0.png)
 ![png](output_168_0.png)
