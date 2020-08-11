@@ -307,7 +307,7 @@ The following provide a general view on the combined data:
 
 ![png](output_116_0.png) ![png](output_117_0.png)
 
-![png](output_118_0.png) ![png](output_120_1.png)
+ ![png](output_120_1.png)
 
 ![png](output_121_1.png) ![png](output_127_0.png)
 
@@ -1161,4 +1161,4 @@ Based on your exploration of the data, what are you key takeaways and recommenda
 
 ## Other Plots
 
-
+![png](output_118_0.png)
