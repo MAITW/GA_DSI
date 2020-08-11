@@ -451,12 +451,13 @@ The following provide a general view on the combined data:
 
 ![png](output_145_1.png)
 
-> <span style='color:green'>From the graph observed for 102 samples each for two years, the distribution shown quite normally distributed except participation. For scores related, if we are able to construct using all scores instaed of mean of each state, a more "normal distributed" pattern should be observed. Similary for the participation, if we are able to obtain a smaller zone instead of at state level, a normal distributed pattern should be obtained. Bigger pool of samples will be the key on obtaining the normally distributed pattern.</span>
+> From the graph observed for 102 samples each for two years, the distribution shown quite normally distributed except participation, the score of Math and Reading are quite close to each other.
 
 > <span style='color:green'> In principle, both SAT and ACT should provide a similar assessment on the competency, therefore, there should be no different between SAT or ACT math score assesment. </span> 
-<span style='color:green'>Theoritically, both SAT and ACT generally cover the same topics, both ACT and SAT scores are used for college admissions decisions and awarding merit-based scholarships.</span> <span style='color:green'>The null hypothesis is the "status quo" hypothesis that you wish to prove wrong. We typically denote the null hypothesis with  𝐻0 .</span>
 
-<span style='color:green'> However, we can perform a hypothesis test the subject Math to evaluate this.</span>
+<span style='color:green'>Theoritically, both SAT and ACT generally cover the same topics, both ACT and SAT scores are used for college admissions decisions and awarding merit-based scholarships.</span> 
+
+<span style='color:green'> We can perform a hypothesis test the subject Math to evaluate this.</span>
 
 > <span style='color:green'> $H_0:$ There is NO difference in evaluating college student competency using both test</span>
 
