@@ -1,6 +1,4 @@
-# Project 1: SAT & ACT Analysis
-
-The first markdown cell in a notebook is a great place to provide an overview of your entire project. You will likely want to at least state your
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project 1: Standardized Testing, Statistical Summaries and Inference
 
 ## Problem Statement
 
