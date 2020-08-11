@@ -518,7 +518,7 @@ The above aligned with the finding from the following diagram:
 
 ![png](output_161_0.png)
 
-<span style='color:green'> From the above diagram, it seems like SAT is gaining more participation than ACT. Furthermore, the results and participation on both ACT and SAT is inversely related to each other. We could also observed few states with swing of participation corresponding with the relevant score swing as well (Illinois, Colorado...etc.) as mentioned aboved </span>
+From the above diagram, it seems like SAT is gaining more participation than ACT. Furthermore, the results and participation on both ACT and SAT is inversely related to each other. We could also observed few states with swing of participation corresponding with the relevant score swing as well (Illinois, Colorado...etc.) as mentioned above.
 
 ## Conclusions and Recommendations
 
