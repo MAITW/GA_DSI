@@ -495,7 +495,7 @@ Answers:
     ACT 17/18 vs SAT 18/18 Math P-Value is 0.666%
 
 
-> <span style='color:green'> From the above tests, it suggest that there is a different between ACT and SAT after the introduction of SAT 18 into the scenario </span>
+> <span style='color:green'> **From the above tests, it suggest that there is a different between ACT and SAT after the introduction of SAT 18 into the scenario** </span>
 
 #### Statistical Evaluation of Distributions 
 
@@ -503,13 +503,22 @@ Answers:
 
 ## Outside Research
 
-> There are multiple research on providing different view on SAT and ACT. The data show a correlation between higher SAT scores and lower average student debt. 
+There are multiple research on providing different view on SAT and ACT. The data show a correlation between higher SAT scores and lower average student debt. 
+According to the College Board Website:
+
+> The SAT School Day Program, which allows students to take the SAT during regular school hours usually at no cost, continues to expand.
+
+> More than 2.1 million students in the class of 2018 took the SAT, an increase of 25% over the class of 2017, according to the 2018 SAT Suite of Assessments Program Results.
+
+> In 2014-15, only 4 states (Delaware, Idaho, Maine, District of Columbia) participated in SAT School Day.
+
+> In 2017-18, 10 states (Colorado, Connecticut, Delaware, Idaho, Illinois, Maine, Michigan, New Hampshire, Rhode Island, West Virginia, District of Columbia) administered the SAT to public school students for free.
+
+The above aligned with the finding from the following diagram:
 
 ![png](output_161_0.png)
 
-
-<span style='color:green'> **Answer:** </span>
-<span style='color:green'> From the above diagram, it seems like SAT is gaining more participation than ACT. Furthermore, the results and participation on both ACT and SAT is inversely related to each other. We could also observed few states with swing of participation corresponding with the relevant score swing as well (Illinois, Colorado...etc.)</span>
+<span style='color:green'> From the above diagram, it seems like SAT is gaining more participation than ACT. Furthermore, the results and participation on both ACT and SAT is inversely related to each other. We could also observed few states with swing of participation corresponding with the relevant score swing as well (Illinois, Colorado...etc.) as mentioned aboved </span>
 
 ## Conclusions and Recommendations
 
