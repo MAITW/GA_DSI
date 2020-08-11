@@ -23,7 +23,7 @@ Based on 2017 and 2018 SAT data, there is a great disparity in SAT participation
 
 
 ### Contents:
-- [2017 Data Import & Cleaning](#Data-Import-and-Cleaning)
+- [Data Import & Cleaning](#Data-Import-and-Cleaning)
 - [Exploratory Data Analysis](#Exploratory-Data-Analysis)
 - [Data Visualization](#Visualize-the-data)
 - [Descriptive and Inferential Statistics](#Descriptive-and-Inferential-Statistics)
@@ -33,35 +33,9 @@ Based on 2017 and 2018 SAT data, there is a great disparity in SAT participation
 **If you combine your problem statement, executive summary, data dictionary, and conclusions/recommendations, you have an amazing README.md file that quickly aligns your audience to the contents of your project.** Don't forget to cite your data sources!
 
 <span style='color:green'> **IMPORT All relevant library** </span>
-## 2017 Data Import & Cleaning
+## Data Import & Cleaning
 
-#### 3. Verbally Describe Data
-
-<span style='color:green'>**Answer:** </span> <br/>
-<span style='color:green'>- ACT contains state, participation rate, English, Math, Reading,Science and composite data <br/>- SAT contains state, participation rate, Evidence-Based Reading & Writing,	Math and Total data
-</span>
-
-
-#### 4a. Does the data look complete? 
-
-<span style='color:green'> **Answer:** <br/> It contains the basic information for both ACT and SAT, although prelinary observation we might need more information to perform a more complete analysis</span>
-
-#### 4b. Are there any obvious issues with the observations?
-
-**What is the minimum *possible* value for each test/subtest? What is the maximum *possible* value?**
-
-<span style='color:green'> **Answer:** </span> <br/>
-
-<span style='color:green'> **ACT** </span> <br/>
-- <span style='color:green'> ACT max score for each test/subtest is 32 marks </span>
-
-<span style='color:green'> **SAT** </span> <br/>
-- <span style='color:green'> SAT max score for each test/subtest is 800 marks </span>
-- <span style='color:green'> SAT Total score is 1600 marks </span>
-
-Consider comparing any questionable values to the sources of your data:
-- [SAT](https://blog.collegevine.com/here-are-the-average-sat-scores-by-state/)
-- [ACT](https://blog.prepscholar.com/act-scores-by-state-averages-highs-and-lows)
+Data were been abstracted from both
 
 #### 8. Data dictionary
 
