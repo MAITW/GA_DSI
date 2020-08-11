@@ -391,10 +391,6 @@ subplot_lmplot(final_v, 'sat_part','act_part',
 
 
 
-![png](output_133_1.png)
-
-
-
 ```python
 # sns.scatterplot(final.state, final.sat_part)
 # plt.xticks( rotation= 60 )
@@ -1147,4 +1143,4 @@ Based on your exploration of the data, what are you key takeaways and recommenda
 
 ## Other Plots
 
-![png](output_118_0.png)
+![png](output_118_0.png) ![png](output_133_1.png)
