@@ -272,25 +272,12 @@ The following provide a general view on the combined data:
 ## Visualize the data
 
 
-#### Use Seaborn's heatmap with pandas `.corr()` to visualize correlations between all numeric features
+#### Heatmap on the correlations between all numeric features
 
 
 ![png](output_107_0.png)
 
-
-
-```python
-mask = np.zeros_like(final_v.corr())
-triangle_indices = np.triu_indices_from(mask)
-mask[triangle_indices] = True
-mask
-plt.figure(figsize=(16,10))
-sns.heatmap(final_v.corr(),mask=mask, annot=True, annot_kws={'size': 10})
-plt.xticks(fontsize=8)
-plt.yticks(fontsize=8)
-plt.show()
-```
-
+#### Heatmap on the correlations between all numeric features
 
 ![png](output_108_0.png)
 
