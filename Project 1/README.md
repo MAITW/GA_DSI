@@ -2,7 +2,8 @@
 
 ## Problem Statement
 
-<span style='color:green'> SAT and ACT both provide a means to gauge college readiness of a student. This analysis will try to use the yearly (2017 & 2018) mean ACT and SAT results to provide a introductory analysis for future and further exploration direction on these two test. These include the trend of participation vs its results, and the correlation between ACT and SAT Test.
+<span style='color:green'> 
+    The new format for the SAT was released in March 2016. As an employee of the College Board - the organization that administers the SAT - we are a part of a team that tracks statewide participation and recommends where money is best spent to improve SAT participation rates. 
 
 </span>
 
