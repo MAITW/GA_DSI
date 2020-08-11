@@ -305,10 +305,7 @@ The following provide a general view on the combined data:
 #### Plot and interpret scatter plots
 
 
-![png](output_116_0.png)
-
-
-![png](output_117_0.png)
+![png](output_116_0.png) ![png](output_117_0.png)
 
 
 ![png](output_118_0.png)
