@@ -13,12 +13,15 @@ Based on 2017 and 2018 SAT data, there is a great disparity in SAT participation
 ## Executive Summary
 
 SAT and ACT provide 
-> With reference to the last few diagram, ACT and SAT scores are inversely correlated with their participation rates. Those state with lower participation tend to achieving higher score and vice versa
+> SAT and ACT scores are inversely correlated with their participation rates. 
+> In 2017-18, 10 states (Colorado, Connecticut, Delaware, Idaho, Illinois, Maine, Michigan, New Hampshire, Rhode Island, West Virginia, District of Columbia) administered the SAT to public school students for free. These have resulted a great improvement of SAT take up rate in these states.
+> Promoting SAT Test to US States that predominantly administer ACT Test with better access through SAT School Day Programs will be the key on promoting SAT in the country.
+
 
 **HERE'S A DEMONSTRATION WITH THE CURRENT SECTION HEADERS**:
 
 ### Contents:
-- [2017 Data Import & Cleaning]
+- [2017 Data Import & Cleaning](#Data-Import-and-Cleaning)
 - [2018 Data Import and Cleaning](#2018-Data-Import-and-Cleaning)
 - [Exploratory Data Analysis](#Exploratory-Data-Analysis)
 - [Data Visualization](#Visualize-the-data)
@@ -29,7 +32,7 @@ SAT and ACT provide
 **If you combine your problem statement, executive summary, data dictionary, and conclusions/recommendations, you have an amazing README.md file that quickly aligns your audience to the contents of your project.** Don't forget to cite your data sources!
 
 <span style='color:green'> **IMPORT All relevant library** </span>
-
+## 2017 Data Import and Cleaning
 
 
 #### 3. Verbally Describe Data
