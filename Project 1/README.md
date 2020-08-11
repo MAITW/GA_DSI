@@ -538,22 +538,23 @@ Based on your exploration of the data, what are you key takeaways and recommenda
 ## Reference
 
 
-- [Ref1: SAT / ACT Prep Online Guides and Tips](https://blog.prepscholar.com/average-sat-scores-by-state-most-recent)
-- [Ref2: SAT reclaims title of most widely used college admission test](https://www.washingtonpost.com/education/2018/10/23/sat-reclaims-title-most-widely-used-college-admission-test/)
-- [Ref3: Correlation between higher SAT scores and lower average student debt](https://www.nitrocollege.com/research/student-debt-future-earnings)
-- [Ref4: Student Debt and future earning](https://www.nitrocollege.com/research/student-debt-future-earnings)
-- Wheeler, Danny. “Colorado Changed to the SAT in 2017: What You Need to Know.” Testive, 10 July 2018, www.testive.com/colorado-sat-change-2017/
-- Genota, Lauraine. “SAT Scores Rise as Number of Test-Takers Tops 2 Million.” Education Week, 20 Feb. 2019, www.edweek.org/ew/articles/2018/10/31/sat-scores-rise-as-number-of-test-takers.html
-- “More Than 2 Million Students in the Class of 2018 Took the SAT, Highest Ever.” The College Board, 18 Mar. 2019, www.collegeboard.org/releases/2018/more-than-2-million-students-in-class-of-2018-took-sat-highest-ever
-- “File:SAT-ACT-Preference-Map.svg.” File:SAT-ACT-Preference-Map.svg - Wikimedia Commons, commons.wikimedia.org/wiki/File:SAT-ACT-Preference-Map.svg
-- “SAT School Day.” SAT Suite of Assessments, 11 May 2018, collegereadiness.collegeboard.org/sat/k12-educators/sat-school-day.
-- Veiga, Christina. “New York City Offers SAT to All High School Juniors, Hoping to Clear a Path to College.” Chalkbeat New York, Chalkbeat New York, 3 Apr. 2017, ny.chalkbeat.org/2017/4/3/21099704/new-york-city-offers-sat-to-all-high-school-juniors-hoping-to-clear-a-path-to-college.
+- Ref 1: SAT / ACT Prep Online Guides and Tips](https://blog.prepscholar.com/average-sat-scores-by-state-most-recent)
+- Ref 2: SAT reclaims title of most widely used college admission test](https://www.washingtonpost.com/education/2018/10/23/sat-reclaims-title-most-widely-used-college-admission-test/)
+- Ref 3: Correlation between higher SAT scores and lower average student debt](https://www.nitrocollege.com/research/student-debt-future-earnings)
+- Ref 4: Student Debt and future earning](https://www.nitrocollege.com/research/student-debt-future-earnings)
+- Ref 5: Wheeler, Danny. “Colorado Changed to the SAT in 2017: What You Need to Know.” Testive, 10 July 2018, www.testive.com/colorado-sat-change-2017/
+- Ref 6: Genota, Lauraine. “SAT Scores Rise as Number of Test-Takers Tops 2 Million.” Education Week, 20 Feb. 2019, www.edweek.org/ew/articles/2018/10/31/sat-scores-rise-as-number-of-test-takers.html
+- Ref 7: “More Than 2 Million Students in the Class of 2018 Took the SAT, Highest Ever.” The College Board, 18 Mar. 2019, www.collegeboard.org/releases/2018/more-than-2-million-students-in-class-of-2018-took-sat-highest-ever
+- Ref 8: “File:SAT-ACT-Preference-Map.svg.” File:SAT-ACT-Preference-Map.svg - Wikimedia Commons, commons.wikimedia.org/wiki/File:SAT-ACT-Preference-Map.svg
+- Ref 9: “SAT School Day.” SAT Suite of Assessments, 11 May 2018, collegereadiness.collegeboard.org/sat/k12-educators/sat-school-day.
+- Ref 10: Veiga, Christina. “New York City Offers SAT to All High School Juniors, Hoping to Clear a Path to College.” Chalkbeat New York, Chalkbeat New York, 3 Apr. 2017, ny.chalkbeat.org/2017/4/3/21099704/new-york-city-offers-sat-to-all-high-school-juniors-hoping-to-clear-a-path-to-college.
 
 
 
 ## Other Plots
 
-![png](output_118_0.png) ![png](output_133_1.png)
+![png](output_118_0.png) 
+![png](output_133_1.png)
 ![png](output_134_0.png)
 ![png](output_165_0.png)
 ![png](output_166_0.png)
