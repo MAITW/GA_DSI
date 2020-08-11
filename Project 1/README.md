@@ -13,7 +13,7 @@ Based on 2017 and 2018 SAT data, there is a great disparity in SAT participation
 ## Executive Summary
 
 **SAT and ACT provide**
-> SAT and ACT scores are inversely correlated with their participation rates. 
+> SAT and ACT are inversely correlated with their participation rates. 
 
 > In 2017-18, 10 states (Colorado, Connecticut, Delaware, Idaho, Illinois, Maine, Michigan, New Hampshire, Rhode Island, West Virginia, District of Columbia) administered the SAT to public school students for free. These have resulted a great improvement of SAT take up rate in these states.
 
