@@ -304,7 +304,6 @@ The following provide a general view on the combined data:
 
 #### Plot and interpret scatter plots
 
-
 ![png](output_116_0.png) ![png](output_117_0.png)
 
 ![png](output_121_1.png) ![png](output_120_1.png)
@@ -445,9 +444,6 @@ The following provide a general view on the combined data:
 
 
 
-Answers:
-
-
 #### Distributions in the data
 
 
@@ -524,15 +520,15 @@ From the above diagram, it seems like SAT is gaining more participation than ACT
 
 Based on your exploration of the data, what are you key takeaways and recommendations? Choose one state with a lower participation rate and provide a suggestion for how the College Board might increase participation amongst graduating seniors in this state. Are there additional data you desire that would better inform your investigations?
 
-<span style='color:green'>**Key Take away**</span>
-<span style='color:green'>Preliminary analysis can conclude the following:</span>
-><span style='color:green'>The ACT and SAT participation seems like inversely correlated with each others, with states that to profer one test than other. ACT seems like is having more 100 % committed states than SAT, this suggestted that ACT is much more popular than SAT.</span>
+**Key Take away**
 
-><span style='color:green'> With reference to the last few diagram, ACT and SAT scores are inversely correlated with their participation rates. Those state with lower participation tend to achieving higher score and vice versa. 
+> The ACT and SAT participation seems like inversely correlated with each others, with states that to profer one test than other. ACT seems like is having more 100 % committed states than SAT, this suggestted that ACT is much more popular than SAT. Which provide space for SAT penatration.
 
-><span style='color:green'>The hypothesis test on SAT & ACT also suggested both tests are different. The tests suggest that there is a different between ACT and SAT after the introduction of SAT 18 into the scenario </span>
-    
-><span style='color:green'>More data sets will need to be introduced in oder to have a more comprehensive and in depth conclusion on both SAT and ACT. Theses data sets should include (but not limited) race, gendar, school acceptance level (in quantity) on both ACT and SAT. </span>
+> With reference to the last few diagram, ACT and SAT scores are inversely correlated with their participation rates. Those state with lower participation tend to achieving higher score and vice versa. 
+
+> The hypothesis test on SAT & ACT also suggested both tests are different. The tests suggest that there is a different between ACT and SAT after the introduction of SAT 18 into the scenario. One of the key areas could be from Math Subject.
+
+> Therefore, aggressive promotion US States that predominantly administer ACT Test with better access through SAT School Day Programs or free access (or with lower rate) will be the key on promoting SAT in the country.
 
 
 ## Reference
