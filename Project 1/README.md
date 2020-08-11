@@ -277,7 +277,9 @@ The following provide a general view on the combined data:
 
 ![png](output_107_0.png)
 
-#### Heatmap on the correlations between all numeric features
+#### Heatmap on the correlations between SAT and ACT 2017/2018 
+
+> We can observed that there is an inverse correlated with their participation rates. Therefore, it is important for us to capture the space from ACT dominating state
 
 ![png](output_108_0.png)
 
