@@ -3,13 +3,16 @@
 ## Problem Statement
 
 <span style='color:green'> 
-    The new format for the SAT was released in March 2016. As an employee of the College Board - the organization that administers the SAT - we are a part of a team that tracks statewide participation and recommends where money is best spent to improve SAT participation rates. 
+The new format for the SAT was released in March 2016. As an employee of the College Board - the organization that administers the SAT - we are a part of a team that tracks statewide participation and recommends where money is best spent to improve SAT participation rates.   
+
+Based on 2017 and 2018 SAT data, there is a great disparity in SAT participation rates across states. College Board wants to improve SAT participation rates across US States. This project aims to investigate why certain states have low SAT participations rates and investigate whether there are any underlying trends or factors affecting a State’s SAT Participation Rate.
+
 
 </span>
 
 ## Executive Summary
 
-If you want to, it's great to use relative links to direct your audience to various sections of a notebook. 
+SAT and ACT provide 
 
 **HERE'S A DEMONSTRATION WITH THE CURRENT SECTION HEADERS**:
 
