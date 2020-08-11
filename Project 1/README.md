@@ -314,9 +314,6 @@ The following provide a general view on the combined data:
 ![png](output_129_0.png) ![png](output_130_0.png)
 
 
-![png](output_134_0.png)
-
-
 ## Descriptive and Inferential Statistics
 
 #### Summarizing Distributions
@@ -453,61 +450,12 @@ Answers:
 
 #### Distributions in the data
 
-In this dataset, each data represents a sample from a population.                        
-For example, for ACT math test:
-- Population: the test results of all the students who take this test, nation-wide.
-- Population mean: is the national average of ACT math test (total scores/total no. of test takers) 
-- Sample: the state means of ACT math test. We have 51 samples (51 states)
-
-***According to CLT, we generally assuming that data we sample from a population will be normally distributed. Do we observe this trend?***
-
-Answer:
-
-Does This Assumption Hold for:
-    - Math
-    - Reading
-    - Rates
-Explain your answers for each distribution and how you think this will affect estimates made from these data.
-
-
-```python
-sns.set(style="darkgrid", palette="coolwarm_r", color_codes=True)
-fig, axes = plt.subplots(2, 3, sharex=True, figsize=(30,10))
-fig.suptitle('ACT sample distribution', fontsize=50)
-plot1 = (final_v['act_math']/32)*100
-plot2 = (final_v['act_reading']/32)*100
-plot3 = final_v['act_part']
-plot4 = (final_v['sat_math']/800)*100
-plot5 = (final_v['sat_ebrw']/800)*100
-plot6 = final_v['sat_part']
-sns.distplot(plot1, kde=True, color="g", ax=axes[0,0])
-sns.distplot(plot2, kde=True, color="g", ax=axes[0,1])
-sns.distplot(plot3, kde=True, color="g", ax=axes[0,2])
-sns.distplot(plot4, kde=True, color="g", ax=axes[1,0])
-sns.distplot(plot5, kde=True, color="g", ax=axes[1,1])
-sns.distplot(plot6, kde=True, color="g", ax=axes[1,2])
-fz = 30
-axes[0,0].set_title('ACT 17/18 Math Score Distribution in %', fontsize=fz)
-axes[0,1].set_title('ACT 17/18 Reading Score Distribution in %', fontsize=fz)
-axes[0,2].set_title('ACT 17/18 Participation Distribution in %', fontsize=fz)
-axes[1,0].set_title('SAT 17/18 Math Score Distribution in %', fontsize=fz)
-axes[1,1].set_title('SAT 17/18 Reading Score Distribution in %', fontsize=fz)
-axes[1,2].set_title('SAT 17/18 Participation Distribution in %', fontsize=fz)
-```
-
-
-
-
-    Text(0.5, 1.0, 'SAT 17/18 Participation Distribution in %')
-
-
 
 
 ![png](output_146_1.png)
 
 
-<span style='color:green'>**Answer:** </span>
-<span style='color:green'>From the graph observed for 102 samples each for two years, the distribution shown quite normally distributed except participation. For scores related, if we are able to construct using all scores instaed of mean of each state, a more "normal distributed" pattern should be observed. Similary for the participation, if we are able to obtain a smaller zone instead of at state level, a normal distributed pattern should be obtained. Bigger pool of samples will be the key on obtaining the normally distributed pattern.</span>
+> <span style='color:green'>From the graph observed for 102 samples each for two years, the distribution shown quite normally distributed except participation. For scores related, if we are able to construct using all scores instaed of mean of each state, a more "normal distributed" pattern should be observed. Similary for the participation, if we are able to obtain a smaller zone instead of at state level, a normal distributed pattern should be obtained. Bigger pool of samples will be the key on obtaining the normally distributed pattern.</span>
 
 #### Estimate Limits of Data
 
@@ -826,3 +774,4 @@ Based on your exploration of the data, what are you key takeaways and recommenda
 ## Other Plots
 
 ![png](output_118_0.png) ![png](output_133_1.png)
+![png](output_134_0.png)
