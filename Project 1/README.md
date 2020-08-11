@@ -13,6 +13,7 @@ Based on 2017 and 2018 SAT data, there is a great disparity in SAT participation
 ## Executive Summary
 
 SAT and ACT provide 
+> With reference to the last few diagram, ACT and SAT scores are inversely correlated with their participation rates. Those state with lower participation tend to achieving higher score and vice versa
 
 **HERE'S A DEMONSTRATION WITH THE CURRENT SECTION HEADERS**:
 
