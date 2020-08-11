@@ -493,10 +493,6 @@ The following provide a general view on the combined data:
 
 > <span style='color:green'> **From the above tests, it suggest that there is a different between ACT and SAT after the introduction of SAT 18 into the scenario** </span>
 
-#### Statistical Evaluation of Distributions 
-
-**If you feel it's appropriate**, using methods we discussed in class, run hypothesis tests to compare variables of interest in our dataset. 
-
 ## Outside Research
 
 There are multiple research on providing different view on SAT and ACT. The data show a correlation between higher SAT scores and lower average student debt. 
