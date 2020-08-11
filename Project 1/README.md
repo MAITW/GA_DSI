@@ -283,32 +283,6 @@ The following provide a general view on the combined data:
 
 ![png](output_108_0.png)
 
-
-#### Define a custom function to subplot histograms
-
-We have data for two tests for two years. We only have composite (and not subtest scores) for the 2018 ACT. We should write a function that will take the names of 2+ columns and subplot histograms. While you can use pandas plotting or Seaborn here, matplotlib gives you greater control over all aspects of your plots.
-
-[Helpful Link for Plotting Multiple Figures](https://matplotlib.org/users/pyplot_tutorial.html#working-with-multiple-figures-and-axes)
-
-Here's some starter code:
-
-
-```python
-def subplot_histograms(dataframe, list_of_columns, list_of_titles, list_of_xlabels):
-    nrows = int(np.ceil(len(list_of_columns)/2)) # Makes sure you have enough rows
-    fig, ax = plt.subplots(nrows=nrows, ncols=2,figsize=(28,28)) # You'll want to specify your figsize
-    ax = ax.ravel() # Ravel turns a matrix into a vector, which is easier to iterate
-    for i, column in enumerate(list_of_columns): # Gives us an index value to get into all our lists
-        MR = dataframe[column].median()
-        color1 = '#ff7733'
-        color2 = '#9fff33'
-        ax[i].hist(dataframe[column],bins=20,color="g",edgecolor="black") # feel free to add morae settings
-        ax[i].set_title(list_of_titles[i])
-        ax[i].set_xlabel(list_of_xlabels[i])
-        ax[i].axvline(MR, linestyle='--', lw = 2, color=color1, label=MR)
-        # Set titles, labels, etc here for each subplot
-```
-
 #### Plot and interpret histograms 
 For each of the following:
 - Participation rates for SAT & ACT
