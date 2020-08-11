@@ -283,22 +283,10 @@ The following provide a general view on the combined data:
 
 ![png](output_108_0.png)
 
-#### Plot and interpret histograms 
-For each of the following:
-- Participation rates for SAT & ACT
-- Math scores for SAT & ACT
-- Reading/verbal scores for SAT & ACT
+#### Histograms on Participation, Math and EBRW: Opportunity for improvement
 
-#### <span style='color:green'> Histograms - Math Score for SAT & ACT </span>
+> Note that 
 
-
-```python
-Titles = ['ACT 17/18 Participation Histogram','SAT 17/18 Participation Histogram',
-          'ACT 17/18 Math Histogram','SAT 17/18 Math Histogram',
-         'ACT 17/18 Reading Histogram','SAT 17/18 EBRW Histogram']
-XLabels = ('ACT Participant %','SAT Paticipant %','ACT Math','SAT Math','ACT Reading','SAT EBRW')
-subplot_histograms(final_v, ['act_part','sat_part','act_math','sat_math','act_reading','sat_ebrw'],Titles,XLabels)
-```
 
 
 ![png](output_113_0.png)
