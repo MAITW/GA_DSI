@@ -29,6 +29,12 @@ SAT and ACT provide
 - [Outside Research](#Outside-Research)
 - [Conclusions and Recommendations](#Conclusions-and-Recommendations)
 
+- [Exploratory Data Analysis](#Exploratory-Data-Analysis)
+- [Data Visualization](#Visualize-the-data)
+- [Descriptive and Inferential Statistics](#Descriptive-and-Inferential-Statistics)
+- [Outside Research](#Outside-Research)
+- [Conclusions and Recommendations](#Conclusions-and-Recommendations)
+
 **If you combine your problem statement, executive summary, data dictionary, and conclusions/recommendations, you have an amazing README.md file that quickly aligns your audience to the contents of your project.** Don't forget to cite your data sources!
 
 <span style='color:green'> **IMPORT All relevant library** </span>
