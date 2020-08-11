@@ -321,38 +321,6 @@ The following provide a general view on the combined data:
 
 #### Summarizing Distributions
 
-Above, we used pandas `describe` to provide quick summary statistics of our numeric columns. We also demonstrated many visual relationships.
-
-As data scientists, having a complete understanding of data is imperative prior to modeling.
-
-While we will continue to build our analytic tools, we know that measures of *central tendency*, *spread*, and *shape/skewness* provide a quick summary of distributions.
-
-For each variable in your data, summarize the underlying distributions (in words & statistics)
- - Be thorough in your verbal description of these distributions.
- - Be sure to back up these summaries with statistics.
-
-
-```python
-round(final_v.describe(),1)
-```
-
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
