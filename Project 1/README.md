@@ -566,143 +566,15 @@ plt.show()
 <span style='color:green'> From the above diagram, it seems like SAT is gaining more participation than ACT. Furthermore, the results and participation on both ACT and SAT is inversely related to each other. We could also observed few states with swing of participation corresponding with the relevant score swing as well (Illinois, Colorado...etc.)</span>
 
 
-```python
-ACT_LowestParticipation = final[['act_part_17','act_part_18','act_math_17',
-                                 'act_math_18','act_reading_17','act_reading_18',
-                                 'act_composite_17','act_composite_18']
-                               ].sort_values(by = ['act_part_17','act_part_18'], ascending=True)
-ACT_LowestParticipation.reset_index(inplace=True)
-ACT_LowestParticipation['act_composite_17'] = round((ACT_LowestParticipation['act_composite_17']/32)*100,2)
-ACT_LowestParticipation['act_composite_18'] = round((ACT_LowestParticipation['act_composite_18']/32)*100,2)
-ACT_LowestParticipation['act_math_17'] = round((ACT_LowestParticipation['act_math_17']/32)*100,2)
-ACT_LowestParticipation['act_math_18'] = round((ACT_LowestParticipation['act_math_18']/32)*100,2)
-ACT_LowestParticipation['act_reading_17'] = round((ACT_LowestParticipation['act_reading_17']/32)*100,2)
-ACT_LowestParticipation['act_reading_18'] = round((ACT_LowestParticipation['act_reading_18']/32)*100,2)
-```
-
-
-```python
-SAT_LowestParticipation = final[['sat_part_17','sat_ebrw_17','sat_math_17',
-                                 'sat_total_17','sat_part_18','sat_ebrw_18',
-                                 'sat_math_18','sat_total_18']
-                               ].sort_values(by = ['sat_part_17','sat_part_18'], ascending=True)
-SAT_LowestParticipation.reset_index(inplace=True)
-SAT_LowestParticipation['sat_total_17'] = round((SAT_LowestParticipation['sat_total_17']/1600)*100,2)
-SAT_LowestParticipation['sat_total_18'] = round((SAT_LowestParticipation['sat_total_18']/1600)*100,2)
-SAT_LowestParticipation['sat_ebrw_17'] = round((SAT_LowestParticipation['sat_ebrw_17']/800)*100,2)
-SAT_LowestParticipation['sat_ebrw_18'] = round((SAT_LowestParticipation['sat_ebrw_18']/800)*100,2)
-SAT_LowestParticipation['sat_math_17'] = round((SAT_LowestParticipation['sat_math_17']/800)*100,2)
-SAT_LowestParticipation['sat_math_18'] = round((SAT_LowestParticipation['sat_math_17']/800)*100,2)
-```
-
-
-```python
-y1 = ACT_LowestParticipation['state']
-x1 = ACT_LowestParticipation['act_part_17']
-plt.figure(figsize=(8,10))
-# plt.xticks( rotation= 90 )
-plt.style.use('seaborn-bright')
-plt.plot(x1, y1, label = "ACT2017 Participation", color='b',lw=2)
-
-y11 = ACT_LowestParticipation['state']
-x11 = ACT_LowestParticipation['act_composite_17']
-plt.plot(x11, y11, label = "ACT2017 Score", color='g',lw=2)
-plt.title('ACT 17 Score and Participation in%', fontsize=20)
-plt.axvline(25, linestyle='--', lw = 1, color="r", label= "25%")
-plt.axvline(75, linestyle='--', lw = 1, color="r", label= "75%")
-plt.axvline(50, linestyle='-', lw = 1, color="r", label= "50%")
-plt.legend(loc='upper left',prop={'size': 7})
-plt.rc('xtick',labelsize=7)
-plt.rc('ytick',labelsize=7)
-plt.show()
-```
-
-
 ![png](output_165_0.png)
 
-
-
-```python
-ACT_LowestParticipation = final[['act_part_18','act_composite_18']
-                               ].sort_values(by = ['act_part_18'], ascending=True)
-ACT_LowestParticipation.reset_index(inplace=True)
-ACT_LowestParticipation['act_composite_18'] = round((ACT_LowestParticipation['act_composite_18']/32)*100,2)
-
-y1 = ACT_LowestParticipation['state']
-x1 = ACT_LowestParticipation['act_part_18']
-plt.figure(figsize=(8,10))
-# plt.xticks( rotation= 90 )
-plt.style.use('seaborn-bright')
-plt.plot(x1, y1, label = "ACT2018 Participation", color='b',lw=2)
-
-y11 = ACT_LowestParticipation['state']
-x11 = ACT_LowestParticipation['act_composite_18']
-plt.plot(x11, y11, label = "ACT2018 Score", color='g',lw=2)
-plt.title('ACT 18 Score and Participation in%', fontsize=20)
-plt.axvline(25, linestyle='--', lw = 1, color="r", label= "25%")
-plt.axvline(75, linestyle='--', lw = 1, color="r", label= "75%")
-plt.axvline(50, linestyle='-', lw = 1, color="r", label= "50%")
-plt.legend(loc='upper left',prop={'size': 7})
-plt.rc('xtick',labelsize=7)
-plt.rc('ytick',labelsize=7)
-plt.show()
-```
-
-
 ![png](output_166_0.png)
-
-
-
-```python
-plt.figure(figsize=(8,10))
-y2 = SAT_LowestParticipation['state']
-x2 = SAT_LowestParticipation['sat_part_17']
-plt.plot(x2, y2, label = "SAT2017 Participation", color='b',lw=2)
-
-y21 = SAT_LowestParticipation['state']
-x21 = SAT_LowestParticipation['sat_total_17']
-plt.plot(x21, y21, label = "SAT2017 Score", color='g',lw=2)
-plt.title('SAT 17 Score and Participation in%', fontsize=20)
-plt.axvline(25, linestyle='--', lw = 1, color="r", label= "25%")
-plt.axvline(50, linestyle='-', lw = 1, color="r", label= "50%")
-plt.axvline(75, linestyle='--', lw = 1, color="r", label= "75%")
-plt.legend(loc='upper left',prop={'size': 10})
-plt.rc('xtick',labelsize=9)
-plt.rc('ytick',labelsize=9)
-plt.show()
-```
 
 
 ![png](output_167_0.png)
 
 
 
-```python
-SAT_LowestParticipation = final[['sat_part_18','sat_total_18']
-                               ].sort_values(by = ['sat_part_18'], ascending=True)
-SAT_LowestParticipation.reset_index(inplace=True)
-SAT_LowestParticipation['sat_total_18'] = round((SAT_LowestParticipation['sat_total_18']/1600)*100,2)
-
-plt.figure(figsize=(8,10))
-y2 = SAT_LowestParticipation['state']
-x2 = SAT_LowestParticipation['sat_part_18']
-plt.plot(x2, y2, label = "SAT2018 Participation", color='b',lw=2)
-
-y21 = SAT_LowestParticipation['state']
-x21 = SAT_LowestParticipation['sat_total_18']
-plt.plot(x21, y21, label = "SAT2018 Score", color='g',lw=2)
-plt.title('SAT 18 Score and Participation in%', fontsize=20)
-plt.axvline(25, linestyle='--', lw = 1, color="r", label= "25%")
-plt.axvline(50, linestyle='-', lw = 1, color="r", label= "50%")
-plt.axvline(75, linestyle='--', lw = 1, color="r", label= "75%")
-plt.legend(loc='upper left',prop={'size': 10})
-plt.rc('xtick',labelsize=9)
-plt.rc('ytick',labelsize=9)
-plt.show()
-```
-
-
-![png](output_168_0.png)
 
 
 ## Conclusions and Recommendations
@@ -724,3 +596,7 @@ Based on your exploration of the data, what are you key takeaways and recommenda
 
 ![png](output_118_0.png) ![png](output_133_1.png)
 ![png](output_134_0.png)
+
+
+
+![png](output_168_0.png)
