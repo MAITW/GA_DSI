@@ -457,26 +457,7 @@ Answers:
 
 > <span style='color:green'>From the graph observed for 102 samples each for two years, the distribution shown quite normally distributed except participation. For scores related, if we are able to construct using all scores instaed of mean of each state, a more "normal distributed" pattern should be observed. Similary for the participation, if we are able to obtain a smaller zone instead of at state level, a normal distributed pattern should be obtained. Bigger pool of samples will be the key on obtaining the normally distributed pattern.</span>
 
-#### Estimate Limits of Data
-
-Suppose we only seek to understand the relationship between SAT and ACT participation rates in 2017. 
-
-##### Does it make sense to conduct statistical inference given these data specifically? 
-
-Why or why not?
-
-<span style='color:green'>**Answer:** </span>
-- <span style='color:green'>Yes, since we only have a sample of two years, we should be able to perform the statistical inferencing. </span>
-- <span style='color:green'>There are some convolution on the data as people who took both SAT and ACT test. </span>
-
-*(think about granularity, aggregation, the relationships between populations size & rates...consider the actually populations these data describe in answering this question)*
-
-##### Is it appropriate to compare *these* specific SAT and ACT math scores  - can we say students with higher SAT math score is better than those with lower ACT math score, or vice versa?
-
-Why or why not? 
-
-<span style='color:green'> **Answer:** </span>
-<span style='color:green'> In principle, both SAT and ACT should provide a similar assessment on the competency, therefore, there should be no different between SAT or ACT math score assesment. </span> 
+> <span style='color:green'> In principle, both SAT and ACT should provide a similar assessment on the competency, therefore, there should be no different between SAT or ACT math score assesment. </span> 
 <span style='color:green'>Theoritically, both SAT and ACT generally cover the same topics, both ACT and SAT scores are used for college admissions decisions and awarding merit-based scholarships.</span> <span style='color:green'>The null hypothesis is the "status quo" hypothesis that you wish to prove wrong. We typically denote the null hypothesis with  𝐻0 .</span>
 
 <span style='color:green'> However, we can perform a hypothesis test the subject Math to evaluate this.</span>
@@ -499,45 +480,14 @@ Why or why not?
 <span style='color:green'>**Group 1 Tests** </span>
 
 
-```python
-Score_A = (final['act_math_17'])
-Score_B = (final['act_math_18'])
-t_stat, p_value = stats.ttest_ind(Score_A, Score_B, equal_var=False)
-print("ACT 17 vs ACT 18 Math P-Value is {}%".format(round(p_value*100,2)))
-
-Score_A = (final['sat_math_17'])
-Score_B = (final['sat_math_18'])
-t_stat, p_value = stats.ttest_ind(Score_A, Score_B, equal_var=False)
-print("SAT 17 vs SAT 18 Math P-Value is {}%".format(round(p_value*100,2)))
-```
-
     ACT 17 vs ACT 18 Math P-Value is 88.66%
     SAT 17 vs SAT 18 Math P-Value is 52.99%
 
 
-<span style='color:green'>From the above, we can observed that there is no significant within the similar tests</span>
+> <span style='color:green'>From the above, we can observed that there is no significant within the similar tests</span>
 
 <span style='color:green'>**Group 2 Tests** </span>
 
-
-```python
-Score_A = (final['act_math_17']/32)*100
-Score_B = (final['sat_math_17']/800)*100
-t_stat, p_value = stats.ttest_ind(Score_A, Score_B, equal_var=False)
-print("ACT 17 vs SAT 17 Math P-Value is {}%".format(round(p_value*100,4)))
-Score_A = (final['act_math_18']/32)*100
-Score_B = (final['sat_math_18']/800)*100
-t_stat, p_value = stats.ttest_ind(Score_A, Score_B, equal_var=False)
-print("ACT 18 vs SAT 18 Math P-Value is {}%".format(round(p_value*100,4)))
-Score_A = (final['act_math_17']/32)*100
-Score_B = (final['sat_math_18']/800)*100
-t_stat, p_value = stats.ttest_ind(Score_A, Score_B, equal_var=False)
-print("ACT 17 vs SAT 18 Math P-Value is {}%".format(round(p_value*100,4)))
-Score_A = (final_v['act_math']/32)*100
-Score_B = (final_v['sat_math']/800)*100
-t_stat, p_value = stats.ttest_ind(Score_A, Score_B, equal_var=False)
-print("ACT 17/18 vs SAT 18/18 Math P-Value is {}%".format(round(p_value*100,4)))
-```
 
     ACT 17 vs SAT 17 Math P-Value is 19.3064%
     ACT 18 vs SAT 18 Math P-Value is 0.4945%
@@ -545,8 +495,7 @@ print("ACT 17/18 vs SAT 18/18 Math P-Value is {}%".format(round(p_value*100,4)))
     ACT 17/18 vs SAT 18/18 Math P-Value is 0.666%
 
 
-<span style='color:green'> **Answer:** </span>
-<span style='color:green'> From the above tests, it suggest that there is a different between ACT and SAT after the introduction of SAT 18 into the scenario </span>
+> <span style='color:green'> From the above tests, it suggest that there is a different between ACT and SAT after the introduction of SAT 18 into the scenario </span>
 
 #### Statistical Evaluation of Distributions 
 
