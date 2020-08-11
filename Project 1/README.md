@@ -307,9 +307,7 @@ The following provide a general view on the combined data:
 
 ![png](output_116_0.png) ![png](output_117_0.png)
 
- ![png](output_120_1.png)
-
-![png](output_121_1.png) ![png](output_127_0.png)
+![png](output_121_1.png) ![png](output_120_1.png)
 
 ![png](output_127_0.png) ![png](output_128_0.png) 
 
