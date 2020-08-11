@@ -285,8 +285,18 @@ The following provide a general view on the combined data:
 
 #### Histograms on Participation, Math and EBRW: Opportunity for improvement
 
-> Note that 
+> Note that there is number of states that is dominated by ACT,this provide an great opportunity for improvement
+- North Dakota
+- Wyoming
+- South Dakota
+- Iowa
+- Utah
+- Minnesota 
+- Nebraska 
+- Wisconsin 
+- Mississippi
 
+> Next, seems like SAT is having a higher score than ACT. As compare to Reading (ACT) vs SAT (EBRW), both are quite evenly distributed. Therefore, from strategic point of view, SAT is having advantage as there are only two key subject in SAT vs four in ACT.
 
 
 ![png](output_113_0.png)
