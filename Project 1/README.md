@@ -84,14 +84,6 @@ Data Dictionary Entry:
 ## Exploratory Data Analysis
 
 
-### Summary Statistics
-Transpose the output of pandas `describe` method to create a quick overview of each numeric feature.
-
-
-```python
-round(final.describe(),2)
-```
-
 
 
 
