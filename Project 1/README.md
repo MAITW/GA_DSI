@@ -451,7 +451,7 @@ The following provide a general view on the combined data:
 
 ![png](output_145_1.png)
 
-> From the graph observed for 102 samples each for two years, the distribution shown quite normally distributed except participation, the score of Math and Reading are quite close to each other.
+> From the graph observed for 102 samples each for two years, the distribution shown quite normally distributed except participation, the score of Math and Reading are quite close to each other. Beside the Math score is on the high end, we can also observed that the EBRW distribution is slightly narrow than the Reading of ACT. Therefore, this provide us with a great opportunity to utilize this advantage to push for wider coverage of SAT.
 
 > <span style='color:green'> In principle, both SAT and ACT should provide a similar assessment on the competency, therefore, there should be no different between SAT or ACT math score assesment. </span> 
 
