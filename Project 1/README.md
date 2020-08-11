@@ -24,13 +24,6 @@ Based on 2017 and 2018 SAT data, there is a great disparity in SAT participation
 
 ### Contents:
 - [2017 Data Import & Cleaning](#Data-Import-and-Cleaning)
-- [2018 Data Import and Cleaning](#2018-Data-Import-and-Cleaning)
-- [Exploratory Data Analysis](#Exploratory-Data-Analysis)
-- [Data Visualization](#Visualize-the-data)
-- [Descriptive and Inferential Statistics](#Descriptive-and-Inferential-Statistics)
-- [Outside Research](#Outside-Research)
-- [Conclusions and Recommendations](#Conclusions-and-Recommendations)
-
 - [Exploratory Data Analysis](#Exploratory-Data-Analysis)
 - [Data Visualization](#Visualize-the-data)
 - [Descriptive and Inferential Statistics](#Descriptive-and-Inferential-Statistics)
@@ -40,8 +33,6 @@ Based on 2017 and 2018 SAT data, there is a great disparity in SAT participation
 **If you combine your problem statement, executive summary, data dictionary, and conclusions/recommendations, you have an amazing README.md file that quickly aligns your audience to the contents of your project.** Don't forget to cite your data sources!
 
 <span style='color:green'> **IMPORT All relevant library** </span>
-## 2017 Data Import and Cleaning
-
 ## 2017 Data Import & Cleaning
 
 #### 3. Verbally Describe Data
