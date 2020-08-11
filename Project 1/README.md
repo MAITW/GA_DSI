@@ -314,18 +314,6 @@ The following provide a general view on the combined data:
 ![png](output_129_0.png) ![png](output_130_0.png)
 
 
-#### Feel free to do additional plots below
-*(do research and choose your own chart types & variables)*
-
-Are there any additional trends or relationships you haven't explored? Was there something interesting you saw that you'd like to dive further into? It's likely that there are a few more plots you might want to generate to support your narrative and recommendations that you are building toward. **As always, make sure you're interpreting your plots as you go**.
-
-
-```python
-final_v.head(1)
-```
-
-
-
 
 <div>
 <style scoped>
