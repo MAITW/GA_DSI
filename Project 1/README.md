@@ -304,6 +304,8 @@ The following provide a general view on the combined data:
 
 #### Plot and interpret scatter plots
 
+> From the graph below, we could observed that SAT scores are being distributed more on the higher end, while ACT scores are more disperse. There, this provide student who took SAT a more higher chance to get better score
+
 ![png](output_116_0.png) ![png](output_117_0.png)
 
 ![png](output_121_1.png) ![png](output_120_1.png)
