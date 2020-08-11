@@ -30,18 +30,13 @@ Based on 2017 and 2018 SAT data, there is a great disparity in SAT participation
 - [Outside Research](#Outside-Research)
 - [Conclusions and Recommendations](#Conclusions-and-Recommendations)
 
-**If you combine your problem statement, executive summary, data dictionary, and conclusions/recommendations, you have an amazing README.md file that quickly aligns your audience to the contents of your project.** Don't forget to cite your data sources!
 
-<span style='color:green'> **IMPORT All relevant library** </span>
 ## Data Import & Cleaning
 
-Data were been abstracted from both
+Data were been abstracted, cleaned and aligned accordingly to the data type for follow up analysis.
 
 #### 8. Data dictionary
 
-A data dictionary provides a quick overview of features/variables/columns, alongside data types and descriptions. 
-
-Data Dictionary Entry:
 
 |Variable|Type|Dataset|Description|
 |---|---|---|---|
@@ -53,7 +48,6 @@ Data Dictionary Entry:
 |**combined18**|*CSV file*|Data from GA |2018 ACT & SAT participation rate and its relevants scores.|
 |**final**|*CSV file*|Data from GA |2017 & 2018 ACT & SAT combined horizontally.|
 
-[Here's a quick link to a short guide for formatting markdown in Jupyter notebooks](https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Working%20With%20Markdown%20Cells.html).
 
 ## Exploratory Data Analysis
 
