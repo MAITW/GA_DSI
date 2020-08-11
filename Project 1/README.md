@@ -307,24 +307,11 @@ The following provide a general view on the combined data:
 
 ![png](output_116_0.png) ![png](output_117_0.png)
 
+![png](output_118_0.png) ![png](output_120_1.png)
 
-![png](output_118_0.png)
+![png](output_121_1.png) ![png](output_127_0.png)
 
-
-![png](output_120_1.png)
-
-
-![png](output_121_1.png)
-
-
-#### Plot and interpret boxplots
-
-![png](output_127_0.png)
-
-
-![png](output_128_0.png)
-
-![png](output_129_0.png)
+![png](output_128_0.png) ![png](output_129_0.png)
 
 ![png](output_130_0.png)
 
@@ -1170,4 +1157,8 @@ Based on your exploration of the data, what are you key takeaways and recommenda
 ><span style='color:green'>The hypothesis test on SAT & ACT also suggested both tests are different. The tests suggest that there is a different between ACT and SAT after the introduction of SAT 18 into the scenario </span>
     
 ><span style='color:green'>More data sets will need to be introduced in oder to have a more comprehensive and in depth conclusion on both SAT and ACT. Theses data sets should include (but not limited) race, gendar, school acceptance level (in quantity) on both ACT and SAT. </span>
+
+
+## Other Plots
+
 
